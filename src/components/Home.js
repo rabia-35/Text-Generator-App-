@@ -24,7 +24,7 @@ function Home() {
         <Row className='pt-5 justify-content-center'>
             <Col xs={5} sm={4} className='box rounded-pill d-flex  pt-2'>
                 <span onClick={(e)=>setParams(params===1 ? params: params-1)} >-</span>
-                <input className="mb-2" type="text" placeholder={params} />
+                <input className="mb-2 ms-2" type="text" placeholder={params} />
                 <span onClick={(e)=>setParams(params+1)} >+</span>
             </Col>
             <Col className=' offset-1 mt-3'>
